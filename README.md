@@ -8,3 +8,7 @@ Attribute(name = value)
 ### Ch2 CSS Basics
 CSS selector property:value
 Strategy: create HTML -> apply CSS
+
+### Ch4 CSS Box model
+padding - space inside
+margin - how far away from other objects
