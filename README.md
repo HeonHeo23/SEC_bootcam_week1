@@ -16,3 +16,6 @@ margin - how far away from other objects
 ### Ch5 CSS Text Styles
 CSS Specifity
 class name selector > element name selctor
+
+### Ch6 HTML structure
+void element does not require a closing tag
