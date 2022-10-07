@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Practice</title>
+    <style>
+      .a {
+        width: 200px;
+        border-radius: 20px;
+      }
+      .b {
+        width: 200px;
+        height: 190px;
+        object-fit: contain;
+        object-position: center;
+      }
+      .c {
+        width: 200px;
+        border-radius: 100px;
+      }
+      .d {
+        font-size: 18px;
+        padding: 10px;
+        width: 175px;
+        border-radius: 5px;
+        border-width: 1px;
+      }
+      .e {
+        font-size: 17px;
+        width: 500px;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+      }
+      .l-text {
+        margin-bottom: 5px;
+      }
+      .email {
+        width: 400px;
+        padding: 10px;
+        border-radius: 4px;
+      }
+      .l-btn {
+        background-color: rgb(46, 97, 238);
+        color: white;
+        border: 0;
+        width: 400px;
+        padding: 18px;
+        font-size: 21px;
+        border-radius: 50px;
+        margin: 10px 0;
+      }
+      .t-img {
+        width: 75px;
+        border-radius: 40px;
+        vertical-align: middle;
+      }
+      .t-input {
+        width: 500px;
+        padding-left: 10px;
+        height: 75px;
+        border: 0;
+        font-size: 18px;
+        vertical-align: middle;
+      }
+      .t-input:active {
+        border: 0;
+      }
+      .t-btn {
+        padding: 10px;
+        width: 100px;
+        font-weight: bold;
+        font-size: 20px;
+        border: 0;
+        color: white;
+        background-color: darkcyan;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="a" src="gator.webp">
+    <img class="b" src="gator.webp">
+    <img class="c" src="gator.webp">
+    <input class="d" type="text" placeholder="Search">
+    <input type="text" class="e" placeholder="Search Google or type a URL">
+    <div>
+      <p class="l-text">
+        Email
+      </p>
+      <input type="text" class="email">
+      <p class="l-text">
+        By clicking Agree & Join, you agree to the Privacy Policy.
+      </p>
+      <button class="l-btn">Agree & Join</button>
+    </div>
+    <div>
+      <img src="gator.webp" class="t-img">
+      <input type="text" class="t-input" placeholder="What's happening?">
+      <button class="t-btn">Tweet</button>
+    </div>
+  </body>
+</html>
