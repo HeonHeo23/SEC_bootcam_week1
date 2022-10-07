@@ -12,3 +12,7 @@ Strategy: create HTML -> apply CSS
 ### Ch4 CSS Box model
 padding - space inside   
 margin - how far away from other objects   
+
+### Ch5 CSS Text Styles
+CSS Specifity
+class name selector > element name selctor
