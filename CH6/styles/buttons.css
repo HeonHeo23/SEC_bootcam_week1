@@ -1,0 +1,217 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 20px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+.subscribe-button:active {
+  opacity: 0.4;
+}
+.join-button {
+  background-color: white;
+  border-color: rgb(6, 95, 212);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(6, 95, 212);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  padding: 9px 16px;
+  vertical-align: top;
+}
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: #1d9bf0;
+  color: white;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.uber-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 16px;
+  vertical-align: top;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.uber-btn:hover {
+  opacity: 0.7
+}
+
+.amazon-btn {
+  background-color: rgb(255, 216, 20);
+  padding: 10px 60px;
+  vertical-align: top;
+  border: none;
+  border-radius: 18px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.amazon-btn:hover {
+  background-color: rgb(255, 206, 10);
+}
+
+.github-btn {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 10px 18px;
+  vertical-align: top;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.15s
+}
+.github-btn:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-btn1 {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  padding: 14px 18px;
+  vertical-align: top;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.bootstrap-btn1:hover {
+  background-color: rgb(111, 72, 169);
+}
+
+.bootstrap-btn2 {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-style: solid;
+  padding: 14px 18px;
+  vertical-align: top;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.bootstrap-btn2:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.linkedin-btn1 {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  padding: 14px 36px;
+  vertical-align: top;
+  font-size: 18px;
+  border-radius: 24px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.linkedin-btn1:hover {
+  background-color: rgb(0, 92, 184);
+}
+
+.linkedin-btn2 {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  padding: 13px 36px;
+  vertical-align: top;
+  font-size: 18px;
+  border-radius: 24px;
+  border: 1px solid rgb(10, 102, 194);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.linkedin-btn2:hover {
+  padding: 12px 36px;
+  border-width: 2px;
+  background-color: rgb(242, 255, 255);
+}
+
+.link {
+  color: rgb(0, 113, 133);
+}
+.link:hover {
+  color: rgb(163, 33, 0)
+}
+.header {
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+.price {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 118, 0);
+}
+.info {
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.btn1 {
+  background-color: rgb(255, 216, 20);
+  font-size: larger;
+  height: 40px;
+  width: 170px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: rgb(245, 206, 10);
+}
+.btn1:active {
+  opacity: 0.7;
+}
+.btn2 {
+  background-color: rgb(255, 164, 28);
+  font-size: larger;
+  height: 40px;
+  width: 170px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: rgb(245, 154, 18);
+}
+.btn2:active {
+  opacity: 0.7;
+}
