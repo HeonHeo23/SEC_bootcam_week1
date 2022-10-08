@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid Pracitce</title>
+    <style>
+      .f {
+        width: 200px;
+        box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+        padding: 0;
+        margin-right: 12px;
+      }
+      .f .info {
+        margin: 0;
+        padding: 10px;
+      }
+      .f img {
+        width: 200px;
+      }
+      .f .title {
+        font-weight: bold;
+      }
+      .f p {
+        margin: 0;
+      }
+      .f .fr {
+      }
+      .f .fr-div {
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        column-gap: 10px;
+        margin: 5px 0 10px;
+        align-items: center;
+      }
+      .f button {
+        color: white;
+        border: 0;
+        background-color: rgb(48, 103, 255);
+        border-radius: 5px;
+        padding: 10px 20px;
+      }
+      .f .small {
+        width: 30px;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 100px;
+    ">
+      <div style="background-color: lightblue;">div 1</div>
+      <div style="background-color: lightpink;">div 2<p>text</p></div>
+    </div>
+    <div style="
+    margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 100px 200px;
+    ">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">100px<p>text</p></div>
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">100px</div>
+    </div>
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 1fr;
+    ">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">1fr</div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 1fr 2fr;
+    ">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">1fr</div>
+      <div style="background-color: lightblue;">2fr</div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 40px;
+    ">
+      <div style="background-color: lightblue; height: 200px;">1fr</div>
+      <div style="background-color: lightpink;">1fr</div>
+      <div style="background-color: lightblue;">1fr</div>
+      <div style="background-color: lightpink; height: 200px;">1fr</div>
+      <div style="background-color: lightblue;">1fr</div>
+      <div style="background-color: lightpink;">1fr</div>
+
+    </div>
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 200px 75px;
+    ">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+    </div>
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+    ">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 10px;
+      column-gap: 20px;
+    ">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
+    ">
+      <div class="f">
+        <img src="gator.webp" class="">
+        <div class="info">
+          <p class="title">Oliver</p>
+          <div class="fr-div">
+            <img src="gator.webp" class="small">
+            <p class="fr">2 mutual friends</p>
+          </div>
+          <button>Add Friend</button>
+        </div>
+      </div>
+      <div class="f">
+        <img src="gator.webp" class="">
+        <div class="info">
+          <p class="title">Oliver</p>
+          <div class="fr-div">
+            <img src="gator.webp" class="small">
+            <p class="fr">2 mutual friends</p>
+          </div>
+          <button>Add Friend</button>
+        </div>
+      </div>
+      <div class="f">
+        <img src="gator.webp" class="">
+        <div class="info">
+          <p class="title">Oliver</p>
+          <div class="fr-div">
+            <img src="gator.webp" class="small">
+            <p class="fr">2 mutual friends</p>
+          </div>
+          <button>Add Friend</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
